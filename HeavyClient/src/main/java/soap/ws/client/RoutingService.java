@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "RoutingService", targetNamespace = "http://tempuri.org/", wsdlLocation = "http://localhost:8735/RoutingServer/SOAP/?wsdl")
+@WebServiceClient(name = "RoutingService", targetNamespace = "http://tempuri.org/", wsdlLocation = "http://localhost:8735/RoutingServer/Host/?wsdl")
 public class RoutingService
     extends Service
 {
@@ -30,7 +30,7 @@ public class RoutingService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:8735/RoutingServer/SOAP/?wsdl");
+            url = new URL("http://localhost:8735/RoutingServer/Host/?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
