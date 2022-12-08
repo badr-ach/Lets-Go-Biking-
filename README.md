@@ -1,8 +1,8 @@
-## How to run this ? 
+## How to run this project ?
 The .jar and .exe files necessary to run this project without hassle are provided in ./Runnables
-They could also be run manually by following the instructions :
+They could also be run manually by following the instructions down below :
 
-## **This project has two parts**
+### **This project has two parts**
 ### First part that should be run is the back-end :
 - Start Activemq on your machine
 - Head over to the directory Routing Server
@@ -26,3 +26,9 @@ As the front end is made using swing in netbeans, it can only be opened with net
 Run the generated .jar file (it is also possible to just right click the Home.class and run file)
 
 Now it should be possible to start the exchange between the front-end and back-end.
+
+- Fill in the two addresses and press Find to query for the itinerary (this version uses a proxy only)
+- Fill in the two addresses and press Directions to query for the itinerary step by step, press next to get the following step
+(this version uses active mq)
+Note : the activemq version creates a topic called APP_QUEUE that should be deleted in case of incompletion of the trajectory 
+Otherwise the next itinerary queries (with the second version) will return the first old steps that were queue'd.
