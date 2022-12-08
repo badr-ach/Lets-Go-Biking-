@@ -1,3 +1,14 @@
+# Let's Go Biking
+## By Badr Al Achkar and Louis Calas
+
+### The goal of the Let’s Go Biking! project is to develop a small app to compute itineraries by reducing as much as possible the distance tocover by foot (by using bikes instead)
+
+### External Resources
+
+#### One of JC Decaux’s business is renting bikes. They have stations in many cities where anyone can get or drop a bike (like Vélo bleu), and they developed an Open API offering real- time information about their stations.
+
+#### OpenStreetMap is an open map project, offering services such as GPS itineraries.
+
 ## How to run this project ?
 The .jar and .exe files necessary to run this project without hassle are provided in ./Runnables
 They could also be run manually by following the instructions down below :
