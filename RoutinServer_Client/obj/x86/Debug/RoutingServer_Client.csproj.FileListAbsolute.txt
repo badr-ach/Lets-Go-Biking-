@@ -1,0 +1,2 @@
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\obj\x86\Debug\RoutingServer_Client.csproj.AssemblyReference.cache
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\obj\x86\Debug\RoutingServer_Client.csproj.CoreCompileInputs.cache

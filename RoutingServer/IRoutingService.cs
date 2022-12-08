@@ -1,20 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
+﻿using RoutingServer.Contracts;
+using RoutingServer.RestClients.OpenStreetMap.Map;
+using System.Device.Location;
 using System.ServiceModel;
-using System.Text;
+
 
 namespace RoutingServer
 {
     [ServiceContract]
     public interface IRoutingService
     {
+
         [OperationContract]
-        Itinerary GetItinerary(GeoCoordinates origin, GeoCoordinates destination);
+        Itinerary GetItinerary(string origin, string destination);
 
+        [OperationContract]
+        QueueWayPoints UpdateSteps(GeoCoordinate origin, GeoCoordinate destination, string currentMode, string queue);
+
+        [OperationContract]
+        Itinerary GetItineraryV2(string origin, string destination, string queuename);
     }
-
-    
 
 }

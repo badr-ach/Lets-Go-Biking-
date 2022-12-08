@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="d26a7d1e-fa5f-4e4e-b0d3-9b06d5073ad0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8735/RoutingServer/SOAP/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RoutingService.wsdl" MetadataType="Wsdl" ID="cef9975e-b614-428f-ab21-e77b9652c589" SourceId="1" SourceUrl="http://localhost:8735/RoutingServer/SOAP/?wsdl" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="5ed23a85-13c9-4a58-9313-deb1f48aa40f" SourceId="1" SourceUrl="http://localhost:8735/RoutingServer/SOAP/?xsd=xsd2" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="1d8b70f1-0365-4e23-bf4c-9cca92c3a38b" SourceId="1" SourceUrl="http://localhost:8735/RoutingServer/SOAP/?xsd=xsd3" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="9aaf7418-62c4-461c-b939-6f5e694e0b8c" SourceId="1" SourceUrl="http://localhost:8735/RoutingServer/SOAP/?xsd=xsd1" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="423885b1-7978-49b8-96f1-f8e33c1da5ab" SourceId="1" SourceUrl="http://localhost:8735/RoutingServer/SOAP/?disco" />
+    <MetadataFile FileName="item3.xsd" MetadataType="Schema" ID="909cb3f8-4b8c-4c91-aed5-d79f28657d66" SourceId="1" SourceUrl="http://localhost:8735/RoutingServer/SOAP/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

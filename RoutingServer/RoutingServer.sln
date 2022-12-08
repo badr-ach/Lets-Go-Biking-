@@ -4,10 +4,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingServer", "RoutingServer.csproj", "{6F862DBE-D12B-4D1C-84BC-EB101732F1D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8334927F-F214-4A69-87E9-8425B5A93689} = {8334927F-F214-4A69-87E9-8425B5A93689}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "..\ProxyServer\ProxyServer.csproj", "{8334927F-F214-4A69-87E9-8425B5A93689}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer_Host", "..\ProxyServer_Host\ProxyServer_Host.csproj", "{166C5014-536D-4B1C-A35E-B63E9250C0D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingServer_Host", "..\RoutingServer_Host\RoutingServer_Host.csproj", "{F270A4CC-0D86-4880-829B-346AE7E1BAFD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F862DBE-D12B-4D1C-84BC-EB101732F1D9} = {6F862DBE-D12B-4D1C-84BC-EB101732F1D9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,10 @@ Global
 		{166C5014-536D-4B1C-A35E-B63E9250C0D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166C5014-536D-4B1C-A35E-B63E9250C0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166C5014-536D-4B1C-A35E-B63E9250C0D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F270A4CC-0D86-4880-829B-346AE7E1BAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F270A4CC-0D86-4880-829B-346AE7E1BAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F270A4CC-0D86-4880-829B-346AE7E1BAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F270A4CC-0D86-4880-829B-346AE7E1BAFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,11 +33,6 @@ namespace ProxyServer
             if(cache.Get(key) == null)
             {
                 object obj = (T)Activator.CreateInstance(typeof(T), new object[] { key });
-/*                Type genericType = typeof(T);
-                PropertyInfo propertyInfo = genericType.GetProperty("Item");
-                object value = propertyInfo.GetValue(obj);
-                
-                Debug.WriteLine("the value is " + ((List<Station>)value).Count);*/
                 cache.Add(key, obj, dto);
             }
             return (T)cache.Get(key);

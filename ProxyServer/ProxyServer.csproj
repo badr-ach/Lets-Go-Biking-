@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Device" />
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\RoutingServer\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
     </Reference>
@@ -68,13 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GenericProxyCache.cs" />
-    <Compile Include="JCDECAUXRestClient\RestAPIClient\Contract.cs" />
-    <Compile Include="JCDECAUXRestClient\RestAPIClient\RestClient.cs" />
+    <Compile Include="JCDecaux\RestAPIClient\Contract.cs" />
+    <Compile Include="JCDecaux\RestAPIClient\RestClient.cs" />
     <Compile Include="IProxyService.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyService.cs" />
-    <Compile Include="JCDECAUXRestClient\DataContracts\Station.cs" />
+    <Compile Include="JCDecaux\DataContracts\Station.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

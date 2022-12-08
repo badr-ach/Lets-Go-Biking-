@@ -1,0 +1,8 @@
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\bin\Debug\Test.exe.config
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\bin\Debug\Test.exe
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\bin\Debug\Test.pdb
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\obj\Debug\Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\obj\Debug\Test.exe
+C:\Users\Badr\Desktop\SI4\S7\MwSoc\SOC\Projet\RoutinServer_Client\Test\obj\Debug\Test.pdb
